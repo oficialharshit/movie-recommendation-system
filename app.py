@@ -116,7 +116,7 @@ def recommend(movie):
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-MODEL_DIR = BASE_DIR /
+MODEL_DIR = BASE_DIR
 
 with open(MODEL_DIR / "movie_dict.pkl", "rb") as f:
     movies_dict = pickle.load(f)
