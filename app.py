@@ -115,7 +115,7 @@ def recommend(movie):
 
 
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent
 MODEL_DIR = BASE_DIR
 
 with open(MODEL_DIR / "movie_dict.pkl", "rb") as f:
